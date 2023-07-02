@@ -14,12 +14,12 @@
 
   <!-- Template Main CSS File -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="../public/css/bootstrap4.css">
-  <link rel="stylesheet" href="../public/css/bootstrap5.css">
+  <link rel="stylesheet" href="./public/css/bootstrap4.css">
+  <link rel="stylesheet" href="./public/css/bootstrap5.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.12/sweetalert2.css" integrity="sha512-K0TEY7Pji02TnO4NY04f+IU66vsp8z3ecHoID7y0FSVRJHdlaLp/TkhS5WDL3OygMkVns4bz0/ah4j8M3GgguA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="./styleClose.css">
-  <script src="./scriptClose.js"></script>
-  <link href="./landingPage.css" rel="stylesheet">
+  <link rel="stylesheet" href="./closeAccount/styleClose.css">
+  <script src="./closeAccount/scriptClose.js"></script>
+  <link href="./landingPage/landingPage.css" rel="stylesheet">
 </head>
 
 <body>
@@ -29,7 +29,7 @@
     <div class="container-fluid container-xl d-flex align-items-center justify-content-between">
         <img id="sound-input" style="display: none" width="70" src="https://media3.giphy.com/media/YzgvFJN9XBDBVkXsny/giphy.gif?cid=6c09b9521hniorc9tdo0wbds32xvqmpzpz80435x4m77cqmq&ep=v1_stickers_related&rid=giphy.gif&ct=s">
       <a class="logo d-flex align-items-center">
-        <img src="../public/logo2.png" alt="" onmouseenter="sayWords('logo picture')" onmouseout="stopTextToSpeech()">
+        <img src="./public/logo2.png" alt="" onmouseenter="sayWords('logo picture')" onmouseout="stopTextToSpeech()">
         <span>instaBank</span>
       </a>
 
@@ -38,8 +38,8 @@
           <li><a class="nav-link scrollto active" href="#hero" onmouseenter="sayWords('home button')" onmouseout="stopTextToSpeech()">Home</a></li>
           <li><a class="nav-link scrollto" href="#features" onmouseenter="sayWords('features button')" onmouseout="stopTextToSpeech()">Features</a></li>
           <li><a class="nav-link" href="#visuallyImp" onmouseenter="sayWords('visually impaired button')" onmouseout="stopTextToSpeech()">Visually impaired</a></li>
-          <li><a class="nav-link" href="../login/loginPage.html" onmouseenter="sayWords('login button')" onmouseout="stopTextToSpeech()">Login</a></li>
-          <li><a class="getstarted" href="../registerPage/register.html" onmouseenter="sayWords('register button')" onmouseout="stopTextToSpeech()">Register</a></li>
+          <li><a class="nav-link" href="./login/loginPage.html" onmouseenter="sayWords('login button')" onmouseout="stopTextToSpeech()">Login</a></li>
+          <li><a class="getstarted" href="./registerPage/register.html" onmouseenter="sayWords('register button')" onmouseout="stopTextToSpeech()">Register</a></li>
         </ul>
         <i class="bi bi-list mobile-nav-toggle"></i>
       </nav><!-- .navbar -->
@@ -65,7 +65,7 @@
           </div>
         </div>
         <div class="col-lg-6 hero-img" data-aos="zoom-out" data-aos-delay="200">
-          <img src="../public/hero-img.png" class="img-fluid" alt="" >
+          <img src="./public/hero-img.png" class="img-fluid" alt="" >
         </div>
       </div>
     </div>
@@ -83,7 +83,7 @@
           </header>
           <div class="row">
             <div class="col-xl-4 text-center" data-aos="fade-right" data-aos-delay="100">
-              <img src="../public/features-3.png" class="img-fluid p-4" alt="" onmouseenter="sayWords('picture')" onmouseout="stopTextToSpeech()">
+              <img src="./public/features-3.png" class="img-fluid p-4" alt="" onmouseenter="sayWords('picture')" onmouseout="stopTextToSpeech()">
             </div>
             <div class="col-xl-8 d-flex content">
               <div class="row align-self-center gy-4">
@@ -159,14 +159,14 @@
           <div class="row d-flex justify-content-center align-items-center m-4">
             <div class="col-lg-4 m-4" data-aos="fade-up" data-aos-delay="200">
               <div class="box">
-                <img src="../public/sound.png" class="img-fluid" alt="" style="max-width: 200px; max-height: 200px;" onmouseenter="sayWords('The system provides support to visually impaired customers')" onmouseout="stopTextToSpeech()">
+                <img src="./public/sound.png" class="img-fluid" alt="" style="max-width: 200px; max-height: 200px;" onmouseenter="sayWords('The system provides support to visually impaired customers')" onmouseout="stopTextToSpeech()">
                 <h3 onmouseenter="sayWords('The user can hear any text the mouse is pointing at using a screen reader')" onmouseout="stopTextToSpeech()" >The user can hear any text the mouse is pointing at using a screen reader</h3>
               </div>
             </div>
 
             <div class="col-lg-4 m-4" data-aos="fade-up" data-aos-delay="400">
               <div class="box">
-                <img src="../public/mic.png" class="img-fluid" alt="" style="max-width: 200px; max-height: 160px;"onmouseenter="sayWords(' mic picture')" onmouseout="stopTextToSpeech()">
+                <img src="./public/mic.png" class="img-fluid" alt="" style="max-width: 200px; max-height: 160px;"onmouseenter="sayWords(' mic picture')" onmouseout="stopTextToSpeech()">
                 <h3 onmouseenter="sayWords('The user can input the required data using voice commands')" onmouseout="stopTextToSpeech()">The user can input the required data using voice commands</h3>
               </div>
             </div>
@@ -194,7 +194,7 @@
         <div class="row gy-4">
           <div class="col-lg-3 col-md-12 footer-info">
             <a href="index.html" class="logo d-flex align-items-center">
-              <img src="../public/logo2.png" alt="" onmouseenter="sayWords('logo picture')" onmouseout="stopTextToSpeech()">
+              <img src="./public/logo2.png" alt="" onmouseenter="sayWords('logo picture')" onmouseout="stopTextToSpeech()">
               <span onmouseenter="sayWords('instaBank')" onmouseout="stopTextToSpeech()">instaBank</span >
             </a>
             <p onmouseenter="sayWords('phone : +1 5589 55488 55....Email: info@instaBank.com')" onmouseout="stopTextToSpeech()">
@@ -239,13 +239,13 @@
   </footer><!-- End Footer -->
 
   <!-- Template Main JS File -->
-  <script src="../public/js/popper.js"></script>
-  <script src="../public/js/jquery.js"></script>
-  <script src="../public/js/bootstrap4.js"></script>
-  <script src="../public/js/bootstrap5.js"></script>
+  <script src="./public/js/popper.js"></script>
+  <script src="./public/js/jquery.js"></script>
+  <script src="./public/js/bootstrap4.js"></script>
+  <script src="./public/js/bootstrap5.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/limonte-sweetalert2/11.7.12/sweetalert2.js" integrity="sha512-ywT1Sl8B8rJwwBWFC3rPTu/VQkDrnS19Kw0Xxa6Y9xvzMSwVMHDQscePPR9yNE0oyVsITEcvUPSDW/aS5KX+Mw==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-  <script src="../script.js"></script>
-  <script src="./landingPage.js"></script>
+  <script src="./script.js"></script>
+  <script src="./landingPage/landingPage.js"></script>
 
 </body>
 
